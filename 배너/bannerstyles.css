@@ -1,0 +1,29 @@
+/* 배너 컨테이너 스타일링 */
+.banner-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* 슬라이드 컨테이너 스타일링 */
+.banner {
+    display: flex;
+    width: 300%; /* 슬라이드의 수에 따라 조정하세요 (예: 3개 슬라이드인 경우 300%) */
+    transition: transform 60s ease; /* 슬라이드 전환 애니메이션 */
+}
+
+/* 개별 슬라이드 스타일링 */
+.slide {
+    flex: 1;
+    text-align: center;
+    padding: 370px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    margin-top: 50px;
+}
+
+/* 활성화된 슬라이드 스타일링 */
+.slide.active {
+    background-color: #333;
+    color: #fff;
+}

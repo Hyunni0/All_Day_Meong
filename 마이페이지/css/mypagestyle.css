@@ -1,0 +1,178 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+    font-family: 'Vidaloka', sans-serif;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+  
+.header{
+    position: fixed;
+    top: 0; left: -100px; right: 0px;
+    z-index: 1000;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+}
+  
+.header .logo{
+    font-size: 1.7rem;
+    font-weight: bolder;
+    color: var(--black);
+}
+
+.highallday{
+    position: relative;
+    width: 110px;
+}
+
+.highlogo{
+    position: relative;
+    width: 30px;
+}
+  
+.header .logo i{
+    color: var(--secondary);
+    padding-right: .5rem;
+}
+  
+.header .navbar a{
+    font-size: 1.7rem;
+    color: var(--black);
+    margin: 0 1rem;
+}
+  
+.header .navbar a:hover{
+    color: var(--primary-color);
+}
+  
+.header .icons a{
+    font-size: 1.7rem;
+    margin-left: 1.7rem;
+    color: var(--black)
+}
+  
+.header .icons div:hover{
+    color: var(--primary-color)
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.user_name{
+    width:100%;
+    margin: auto;
+    padding: 300px;
+    text-align: center;
+}
+
+.name1{
+    width: 100px;
+    height: 30px;
+    background: #669bef;
+    color: #fff;
+    line-height: 30px;
+    margin: 10px auto;
+    text-align: center;
+    margin-right: 750px;
+    margin-top: -330px;
+}
+
+.name2{
+    width: 100px;
+    height: 30px;
+    background: #3a3d44;
+    color: #fff;
+    line-height: 30px;
+    margin: 10px auto;
+    text-align: center;
+    margin-right: 600px;
+    margin-top: -40px;
+}
+
+.profile-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-container img {
+    width: 200px; /* 원하는 크기로 조정 */
+    height: 200px;
+    border-radius: 50%; /* 원 모양의 프로필 사진을 위해 */
+    object-fit: cover; /* 이미지가 비율 유지하며 채워지도록 */
+    border: 3px solid #000000; /* 프로필 사진 테두리 스타일링 */
+    margin-right: 700px;
+    margin-bottom: -400px;
+}
+
+.user{
+    position: relative;
+    top: 80px;
+    display: flex;
+    width: 1280px;
+    background: #f8f8f8;
+    box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.2);
+    margin: auto;
+}
+
+.user > li {
+    flex:1;
+    height: 300px;
+}
+
+.dog{
+    position: relative;
+    top: 160px;
+    display: flex;
+    width: 1280px;
+    background: #f8f8f8;
+    box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.2);
+    margin: auto;
+}
+
+.dog > li {
+    flex:1;
+    height: 300px;
+}
+
+.user0{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.dog0{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.user00{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 50px;
+}
+
+.dog00{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 50px;
+}
+
+.center{
+    font-size: 1.7rem;
+    color: #000;
+    text-align: center;
+}
